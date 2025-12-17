@@ -15,11 +15,15 @@
     </style>
       <model-viewer 
       camera-controls camera-orbit="120deg 50deg 10m" 
+      <model-viewer
       src="pikaani.glb" /* 3Dモデル ファイル指定 */
       poster="assets/loding.gif"
       alt="non pokemon"
-      shadow-intensity="1"
-      auto-rotate>
+      camera-controls
+      auto-rotate
+      autoplay
+      animation-name="Idle"
+      shadow-intensity="1">
     </model-viewer>
   </body>
 </html>
